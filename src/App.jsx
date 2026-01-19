@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import AlarmIcon from "@mui/icons-material/Alarm";
 import Fingerprint from "@mui/icons-material/Fingerprint";
 import "./App.css";
+import RatingDemo from "./RatingDemo";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <IconButton aria-label="fingerprint" color="success">
         <Fingerprint />
       </IconButton>
+
+      <RatingDemo />
     </>
   );
 }
