@@ -11,7 +11,7 @@ import RatingDemo from "./RatingDemo";
 function App() {
   return (
     <>
-      <Button color="success" variant="contained" size="small">
+      {/* <Button color="success" variant="contained" size="small">
         Contained
       </Button>
       <IconButton color="secondary" aria-label="add an alarm">
@@ -19,7 +19,7 @@ function App() {
       </IconButton>
       <IconButton aria-label="fingerprint" color="success">
         <Fingerprint />
-      </IconButton>
+      </IconButton> */}
 
       <RatingDemo />
     </>
